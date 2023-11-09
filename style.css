@@ -1,0 +1,40 @@
+body {
+  background-color: #faebd7;
+}
+
+nav {
+  background-color: #6d3f3f;
+  padding: 15px;
+  width: 50%;
+}
+
+nav a {
+  color: #191970;
+  text-decoration: none;
+  margin-right: 20px;
+}
+
+nav a:hover {
+  text-decoration: underline;
+}
+
+nav h2 {
+  display: inline;
+  color: white;
+  margin-right: 20px;
+}
+
+nav a:visited {
+  color: #191970; /* Couleur pour les liens déjà visités */
+}
+
+.photo_kev {
+  max-width: 10%;
+  margin: 0 auto;
+}
+
+.exp_pro,
+.formation {
+  margin-top: 100px;
+  margin-bottom: 100px;
+}

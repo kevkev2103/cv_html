@@ -1,139 +1,191 @@
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>CV Kevin</title>
-</head>
-<body>
-<p> Bienvenu sur ma page, j'espère que vous pourrez me connaitre plus grandement à la suite de cette lecture.</p>
 
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="contenant_photo_kev">
+      <img class="photo_kev" src = img/photo_kev.jpg alt ="Photo de moi">
+    </div>
 
+    <nav class="barre_navigation">
+      <a href="#a_propos">A PROPOS</a>
+      <a href="#exp_pro">EXPÉRIENCES</a>
+      <a href="#formation">FORMATION</a>
+      <a href="#competences">COMPÉTENCES</a>
+    </nav>
 
-<h2>EXPERIENCES PROFESSIONNELLES</h2>
+    <section id="a_propos" class="intro_perso">
+      <h2>A PROPOS DE MOI</h2>
+      <p>
+        J'ai eu l'opportunité d'évoluer dans deux domaines distincts : la
+        restauration et le contrôle de gestion. Ces expériences m'ont permis
+        d'acquérir des compétences en management opérationnel et en pilotage
+        économique, respectivement. Mon projet actuel dans le domaine de la Data
+        est une extension naturelle de ma compréhension de l'importance des
+        données dans le processus décisionnel. Ainsi, le rôle de Data Analyst
+        représente une évolution logique pour concilier la gestion
+        opérationnelle avec la prise de décision.
+      </p>
+    </section>
 
-    <h3>Manager de Raasa Street Food</h3>
-    <h4>Indian streetfood Paris 01| Février 2022-Mai 2023</h4>
+    <section id="exp_pro" class="exp_pro">
+      <h2>EXPERIENCES PROFESSIONNELLES</h2>
+
+      <div class="exp3">
+        <details>
+          <summary>
+            <h3>Manager de Raasa Street Food</h3>
+
+            <h4>Indian streetfood Paris 01| Février 2022-Mai 2023</h4>
+          </summary>
+          <ul>
+            <li>Management opérationnel</li>
+            <li>Reporting journalier des affaires courantes aux associés</li>
+            <li>Des normes de sécurité et d'hygiène</li>
+            <li>Traçabilité de la marchandise livrée</li>
+            <li>Archivage des factures</li>
+            <li>Service client</li>
+            <li>Recrutement</li>
+          </ul>
+        </details>
+      </div>
+
+      <div class="exp2">
+        <details>
+          <summary>
+            <h3>Pilotage économique chez Covéa Paris/Niort</h3>
+            <h4>
+              Direction Pilotage Economique et Financier | Septembre 2020-
+              Février 2022
+            </h4>
+          </summary>
+          <ul>
+            <li>
+              Pilotage budgétaire du département marketing de la marque GMF
+            </li>
+            <li>Saisie des données dans les ERP SAP</li>
+            <li>Suivi Equivalent Temps Plein (ETP)</li>
+            <li>Contrôle des lignes budgétaires</li>
+            <li>Reporting budgétaire à la direction du département</li>
+          </ul>
+        </details>
+      </div>
+
+      <div class="exp3">
+        <details>
+          <summary>
+            <h3>Directeur du Café la Bucherie</h3>
+            <h4>Café la Bucherie Paris 05 | 2015 - 2020</h4>
+          </summary>
+          <ul>
+            <li>Management des équipes en salle et en cuisine</li>
+            <li>Gestion des achats et du stock</li>
+            <li>Contrôle de la trésorerie</li>
+            <li>Tenue des tâches administratives</li>
+            <li>Recrutement</li>
+            <li>Gestion financière</li>
+          </ul>
+        </details>
+      </div>
+    </section>
+
+    <section id="formation" class="formation">
+      <h2>FORMATION</h2>
+
+      <h3>Ecole IA Microsoft by Simplon</h3>
+      <p>Développeur Data IA Octobre 2023- Juin 2024</p>
+
+      <h3>Excelia Group - La Rochelle Business School</h3>
+      <p>Master 2 Audit-Conseil et Contrôle 2021</p>
+    </section>
+
+    <h2 id="competences">COMPETENCES</h2>
+    <h3>HARD SKILLS</h3>
     <ul>
-        <li> Management opérationnel</li>
-        <li>Reporting journalier des affaires courantes aux associés</li>
-        <li>Des normes de sécurité et d'hygiène</li>
-        <li>Traçabilité de la marchandise livrée</li>
-        <li>Archivage des factures</li>
-        <li>Service client</li>
-        <li>Recrutement</li>
-            </ul>
-
-    <h3>Pilotage économique chez Covéa Paris/Niort</h3>
-    <h4>Direction Pilotage Economique et Financier  | Septembre 2020- Février 2022</h4>
-    <ul>
-        <li>Pilotage budgétaire du département marketing de la marque GMF</li>
-        <li>Saisie des données dans les ERP SAP</li>
-        <li>Suivi Equivalent Temps Plein (ETP)</li>
-        <li>Contrôle des lignes budgétaires</li>
-        <li>Reporting budgétaire à la direction du département</li>
-            </ul>
-
-    <h3>Directeur du Café la Bucherie </h3>
-    <h4>Café la Bucherie Paris 05 | 2015 - 2020</h4>
-    <ul>
-        <li>Management des équipes en salle et en cuisine</li>
-        <li>Gestion des achats et du stock</li>
-        <li>Contrôle de la trésorerie</li>
-        <li>Tenue des tâches administratives</li>
-        <li>Recrutement</li>
-        <li>Gestion financière</li>
+      <li>
+        Conception et gestion de bases de données :
+        <ul>
+          <li>MySQL</li>
+          <li>SQLite3</li>
+          <li>PostgreSQL</li>
+          <li>BigQuery</li>
+          <li>MongoDB</li>
+          <li>UML (Unified Modeling Language)</li>
+        </ul>
+      </li>
+      <li>
+        Manipulation de données :
+        <ul>
+          <li>Python</li>
+          <li>SQL</li>
+          <li>Pandas</li>
+          <li>NumPy</li>
+          <li>Scrapy (pour le web scraping)</li>
+        </ul>
+      </li>
+      <li>
+        Création de visualisations :
+        <ul>
+          <li>Matplotlib</li>
+          <li>Seaborn</li>
+          <li>Plotly</li>
+          <li>Tableau</li>
+        </ul>
+      </li>
+      <li>
+        Mise en place d'algorithmes de machine learning :
+        <ul>
+          <li>Scikit-learn</li>
+          <li>Keras</li>
+          <li>PyTorch</li>
+          <li>TensorFlow</li>
+        </ul>
+      </li>
+      <li>
+        Développement d'applications intégrant l'IA :
+        <ul>
+          <li>Streamlit</li>
+          <li>Flask</li>
+          <li>FastAPI</li>
+        </ul>
+      </li>
+      <li>
+        Gestion de projet :
+        <ul>
+          <li>Git</li>
+          <li>GitHub</li>
+          <li>Scrum</li>
+          <li>Agile</li>
+          <li>ML Flow (pour le suivi des workflows de machine learning)</li>
+        </ul>
+      </li>
+      <li>
+        Création de sites web :
+        <ul>
+          <li>HTML</li>
+          <li>CSS</li>
+        </ul>
+      </li>
+      <li>
+        Certifications :
+        <ul>
+          <li>Certification Azure AZ-900</li>
+          <li>Certification Azure AI-900</li>
+          <li>Certification Agile</li>
+        </ul>
+      </li>
     </ul>
-    
 
-
-<h2>FORMATION</h2>
-
-<h3>Ecole IA Microsoft by Simplon</h3>
-<p>Développeur Data IA  Octobre 2023- Juin 2024</p>
-
-<h3>Excelia Group - La Rochelle Business School</h3>
-<p>Master 2 Audit-Conseil et Contrôle  2021</p>
-
-<h2>COMPETENCES</h2>
-<h3>HARD SKILLS</h3>
-<ul>
-    <li>Conception et gestion de bases de données :
-        <ul>
-            <li>MySQL</li>
-            <li>SQLite3</li>
-            <li>PostgreSQL</li>
-            <li>BigQuery</li>
-            <li>MongoDB</li>
-            <li>UML (Unified Modeling Language)</li>
-        </ul>
-    </li>
-    <li>Manipulation de données :
-        <ul>
-            <li>Python</li>
-            <li>SQL</li>
-            <li>Pandas</li>
-            <li>NumPy</li>
-            <li>Scrapy (pour le web scraping)</li>
-        </ul>
-    </li>
-    <li>Création de visualisations :
-        <ul>
-            <li>Matplotlib</li>
-            <li>Seaborn</li>
-            <li>Plotly</li>
-            <li>Tableau</li>
-        </ul>
-    </li>
-    <li>Mise en place d'algorithmes de machine learning :
-        <ul>
-            <li>Scikit-learn</li>
-            <li>Keras</li>
-            <li>PyTorch</li>
-            <li>TensorFlow</li>
-        </ul>
-    </li>
-    <li>Développement d'applications intégrant l'IA :
-        <ul>
-            <li>Streamlit</li>
-            <li>Flask</li>
-            <li>FastAPI</li>
-        </ul>
-    </li>
-    <li>Gestion de projet :
-        <ul>
-            <li>Git</li>
-            <li>GitHub</li>
-            <li>Scrum</li>
-            <li>Agile</li>
-            <li>ML Flow (pour le suivi des workflows de machine learning)</li>
-        </ul>
-    </li>
-    <li>Création de sites web :
-        <ul>
-            <li>HTML</li>
-            <li>CSS</li>
-        </ul>
-    </li>
-    <li>Certifications :
-        <ul>
-            <li>Certification Azure AZ-900</li>
-            <li>Certification Azure AI-900</li>
-            <li>Certification Agile</li>
-        </ul>
-    </li>
-</ul>
-
-
-
-
-
-<h4>SOFT SKILLS</h4>
+    <h4>SOFT SKILLS</h4>
     <ul>
-    <li>Travail collaboratif</li>
-    <li>Agilité et capacité d'apprentissage</li>
-    <li>Curiosité</li>
-    <li>Sens logique</li>
+      <li>Travail collaboratif</li>
+      <li>Agilité et capacité d'apprentissage</li>
+      <li>Curiosité</li>
+      <li>Sens logique</li>
     </ul>
-
-</body>
+  </body>
 </html>
